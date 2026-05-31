@@ -1,3 +1,28 @@
 STATE = {
-    "cart": []
+    "formula":[
+        {
+            "name":"sphere",
+            "surface_area":"4πr^2",
+            "volume":"(4/3)πr^3"
+        },
+        {
+            "name":"prism",
+            "surface_area":"2B+Ph",
+            "volume":"Bh"
+        },
+        {
+            "name":"cylinder",
+            "surface_area":"2πr^2+2πrh",
+            "volume":"2πr^2+2πrh"
+        },
+        {
+            "name":"pyramid",
+            "volume":"(1/3)Bh"
+        },
+        {
+            "name":"cone",
+            "surface_area":"πr(r+l)",
+            "volume":"(1/3)πr^2*h"
+        },
+    ]
 }
